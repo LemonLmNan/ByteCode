@@ -84,7 +84,7 @@ public class MyAttribute{
             case "StackMapTable":
                 int number_of_entries = ByteInfo.readInt(2);
                 System.out.println("number_of_entries = "+number_of_entries);
-                // TODO: 处理 entry
+                // 处理 entry
 
                 System.out.println("===================");
                 break;

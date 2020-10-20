@@ -34,16 +34,12 @@ public class MyMethod{
         // 方法的访问标志
         String methodAccessFlags;
         int name_index, descriptor_index, attributes_count;
-
         // access_flag
         methodAccessFlags = ByteInfo.readHexString(2);
-
         // name_index
         name_index = ByteInfo.readInt(2);
-
         // descriptor_index
         descriptor_index = ByteInfo.readInt(2);
-
         // attributes_count
         attributes_count = ByteInfo.readInt(2);
 
